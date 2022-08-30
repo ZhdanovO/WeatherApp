@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val texViewHello = findViewById<TextView>(R.id.tvHello)
-        texViewHello.text ="<p>Привет!</p> мир!"
+        texViewHello.text ="<p>Привет!</p> мир!" +
+                "changes just fore test github connection"
     }
 }
